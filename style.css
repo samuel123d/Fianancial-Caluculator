@@ -1,0 +1,110 @@
+#fot {
+    position: relative;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/vetores-premium/matematica-padrao-simples-azul-algebra-educacao-vetor-de-fundo-transparente_104589-5549.jpg");
+    background-repeat:  repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background:#8ea3c1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.calc-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    font-weight: bold;
+}
+.question{
+                    
+    color:white;
+    list-style: none;
+ 
+    
+}
+
+.answer{
+    display: block;
+    margin-top: 10px;
+   
+    color:yellow;
+    font-size: 12px;
+    list-style: none;
+    text-align: justify;
+    
+   
+}
+
+.lis{
+  
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 10px;
+    display: block;
+   
+    
+}
+.linka{
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+    display: inline;
+    padding:5px;
+    background-color:#4d5256 ;
+    border: solid 2px gray;
+    border-radius: 6px;
+    text-align: justify;
+}
+.links{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding:5px;
+    background-color: #4d5256 ;
+    border: solid 2px gray;
+    border-radius: 3px;
+
+}
