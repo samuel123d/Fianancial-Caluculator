@@ -15,7 +15,8 @@ function calc_simples() {
         mensagem = `O valor do juros calculado foi: ${juros.toFixed(2)}. O montante foi: ${montante.toFixed(2)}. `;
     } else if (isNaN(capital) && !isNaN(juros) && !isNaN(taxa) && !isNaN(tempo)) {
         capital = (juros * 100) / (taxa * tempo);
-        mensagem = `O valor do capital calculado foi: ${capital.toFixed(2)}. O montante foi: ${montante.toFixed(2)}. `;
+        montante = capital + juros;
+        mensagem = `O valor do capital calculado foi: ${capital.toFixed(2)}. O montante foi: ${montante.toFixed(2)}. `
     } else if (isNaN(taxa) && !isNaN(juros) && !isNaN(capital) && !isNaN(tempo)) {
         taxa = (juros * 100) / (capital * tempo);
         mensagem = `O valor da taxa calculada foi: ${taxa.toFixed(2)}%. O montante foi: ${montante.toFixed(2)}. `;
